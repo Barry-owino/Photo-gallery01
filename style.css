@@ -20,3 +20,9 @@ body{
   width:100%;
   cursor:pointer;
 }
+
+.gallery img:hover{
+  transform:scale(0.8) rotate(15deg);
+  border-radius:15px;
+  box-shadow:0 32px 65px rgba(68,77,136,0.2);
+}
