@@ -5,3 +5,7 @@ function openFullImg(photo) {
   fullImgBox.style.display = "flex";
   fullImg.src = photo;
 }
+
+function closeFullImg() {
+  fullImgBox.style.display = "none";
+}
